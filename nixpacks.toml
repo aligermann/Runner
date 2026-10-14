@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["python3", "nodejs", "typescript", "go", "openjdk", "php", "rustc"]
+
+[phases.install]
+cmds = ["python -m pip install --upgrade pip", "python -m pip install -r requirements.txt"]
+
+[start]
+cmd = "python bot.py"
