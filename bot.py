@@ -26,7 +26,7 @@ from aiogram.client.default import DefaultBotProperties
 # These are used directly. If a BOT_TOKEN / ADMIN_ID Environment Variable is
 # also set on Railway from an older setup, it is ignored — whatever is
 # written here always wins, so editing this file is always enough.
-DEFAULT_BOT_TOKEN = "8788775336:AAG1EN9l8bDR6km6M5fYfi7auNuDEkvLoYE"
+DEFAULT_BOT_TOKEN = "8788775336:AAEBfGykhWez3CKzIbtXGygyWGSIbzB4ZgQ"
 DEFAULT_ADMIN_ID = 7764565509
 
 BOT_TOKEN = (DEFAULT_BOT_TOKEN or os.getenv("BOT_TOKEN", "")).strip()
